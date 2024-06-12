@@ -15,6 +15,22 @@ public class Main {
     String firstName = "間瀬";
     String lastName = "英紀";
 
+//    以下は動作確認用
+//    String firstName = "間瀬";
+//    String lastName = "hideki";
+//
+//    String firstName = "mase";
+//    String lastName = "hideki";
+//
+//    String firstName = "間瀬";
+//    String lastName = "英";
+//
+//    String firstName = "間";
+//    String lastName = "英紀";
+//
+//    System.out.println("名字の長さ：" + firstName.length());
+//    System.out.println("名前の長さ：" + lastName.length());
+
     if(firstName.length() >= 2 && lastName.length() >= 2){
       System.out.println(firstName + lastName);
     }else{
