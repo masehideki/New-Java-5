@@ -1,10 +1,7 @@
 package org.example;
 
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
 
   public static void main(String[] args) {
@@ -18,7 +15,7 @@ public class Main {
     String firstName = "間瀬";
     String lastName = "英紀";
 
-    if(firstName.length() >= 2){
+    if(firstName.length() >= 2 && lastName.length() >= 2){
       System.out.println(firstName + lastName);
     }else{
       System.out.println("条件に一致しませんでした。");
