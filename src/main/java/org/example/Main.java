@@ -40,9 +40,25 @@ public class Main {
 //    追加：日付を使って条件分岐をする
 //    現在のローカル時刻を取得する。
 //    その時刻が午前0時〜午前11時59分なら「AM〇〇:〇〇」、それ以外なら「PM〇〇:〇〇」と表示する。
+
     LocalDateTime nowTime = LocalDateTime.now();
     int nowHour = nowTime.getHour();
     int nowMin = nowTime.getMinute();
+
+//    以下、動作確認用
+//
+//    int nowHour = 0;
+//    int nowMin = 0;
+//
+//    int nowHour = 11;
+//    int nowMin = 59;
+
+//    int nowHour = 12;
+//    int nowMin = 0;
+//
+//    int nowHour = 23;
+//    int nowMin = 59;
+
     if(nowHour < 12){
       System.out.println("AM"+nowHour+":"+nowMin);
     }else{
