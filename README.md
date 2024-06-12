@@ -14,7 +14,7 @@
 <img width="191" alt="スクリーンショット 2024-06-13 7 47 36" src="https://github.com/masehideki/New-Java-5/assets/135149708/87dc9942-2673-4560-904e-ac38e370058b">
 <img width="186" alt="image" src="https://github.com/masehideki/New-Java-5/assets/135149708/6b36ea8f-1834-40e2-839c-27add957260d">
 <br>
-・現在時刻を意図的に境界値に変更して、適切にコンソールされる。<br>
+・現在時刻を意図的に境界値０時０分、１１時５９分、１２時０分、２３時５９分に変更して、適切にコンソールされる。<br>
 <img width="169" alt="image" src="https://github.com/masehideki/New-Java-5/assets/135149708/91d6761e-4315-4469-a6de-e5fedf85e6b5">
 <img width="161" alt="image" src="https://github.com/masehideki/New-Java-5/assets/135149708/41f4190a-00c4-40fa-8fa6-919eff3f220f">
 <img width="163" alt="スクリーンショット 2024-06-13 7 54 31" src="https://github.com/masehideki/New-Java-5/assets/135149708/f9b981c9-7bde-4c28-b893-f41cc7e8fe28">
