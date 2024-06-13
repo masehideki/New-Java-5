@@ -46,7 +46,7 @@ public class Main {
     int nowMin = nowTime.getMinute();
 
 //    以下、動作確認用
-//
+
 //    int nowHour = 0;
 //    int nowMin = 0;
 //
@@ -60,9 +60,9 @@ public class Main {
 //    int nowMin = 59;
 
     if(nowHour < 12){
-      System.out.println("AM"+nowHour+":"+nowMin);
+      System.out.println("AM "+nowHour+":"+(nowMin < 10 ? "0" + nowMin : "0"));
     }else{
-      System.out.println("PM"+nowHour+":"+nowMin);
+      System.out.println("PM "+nowHour+":"+(nowMin < 10 ? "0" + nowMin : "0"));
     }
   }
 }
